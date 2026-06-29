@@ -1,11 +1,11 @@
 # Privacybeleid — Rhetoriq
-PartyFix | [jouw contactadres]
+AppDev020 | appdev020@proton.me
 Versie 1.0 — juni 2026
 
 ---
 
 ## 1. Wie zijn wij
-Rhetoriq is ontwikkeld door PartyFix. Voor vragen over dit beleid kun je contact opnemen via [jouw contactadres].
+Rhetoriq is ontwikkeld door AppDev020. Voor vragen over dit beleid kun je contact opnemen via appdev020@proton.me.
 
 ---
 
@@ -66,4 +66,4 @@ Wij kunnen dit beleid aanpassen. De meest recente versie is altijd beschikbaar v
 ---
 
 ## 8. Contact
-Vragen over dit privacybeleid? Neem contact op via [jouw contactadres].
+Vragen over dit privacybeleid? Neem contact op via appdev020@proton.me.
