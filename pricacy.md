@@ -28,11 +28,10 @@ On the device the app stores, among other things: language choice, whether liste
 **Calling**  
 With permission, the app starts a call through your device’s phone app. Without that permission, it only opens the dialler.
 
-**What we do not do**
+**What we don't do**
 
 - No accounts, no sign-in
 - No ads
-- No analytics or tracking SDKs in the app
 - No sale of personal data
 - No backend of ours that stores your contacts or spoken commands
 
@@ -99,7 +98,6 @@ Met toestemming start de app een gesprek via de bel-app van het toestel. Zonder 
 
 - Geen accounts, geen inloggen
 - Geen advertenties
-- Geen analytische of tracking-SDK’s in de app
 - Geen verkoop van persoonsgegevens
 - Geen eigen backend die uw contacten of gesproken opdrachten opslaat
 
