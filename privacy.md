@@ -49,9 +49,9 @@ With permission, the app starts a call through your device's phone app. Without 
 
 **Third parties**
 
-- **Google:** speech recognition (audio may be processed on Google's servers); Places searches; Firebase (anonymous sign-in, App Check, database for usage counters, hosting for the speech model); Google Play (payment)
-- **RevenueCat:** subscription status
-- **Alphacephei:** only as a fallback source for the Vosk model file
+- **Google:** speech recognition (audio may be processed on Google's servers), see the [Google Privacy Policy](https://policies.google.com/privacy); Places searches, see the [Google Maps Platform Terms](https://cloud.google.com/maps-platform/terms); Firebase (anonymous sign-in, App Check, database for usage counters, hosting for the speech model), see [Firebase privacy](https://firebase.google.com/support/privacy); Google Play (payment)
+- **RevenueCat:** subscription status, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+- **Alphacephei:** only as a fallback source for the Vosk model file, see [alphacephei.com/vosk](https://alphacephei.com/vosk/)
 
 Their own privacy terms apply to what they receive.
 
@@ -132,9 +132,9 @@ Met toestemming start de app een gesprek via de bel-app van het toestel. Zonder 
 
 **Derden**
 
-- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt); Places-zoekopdrachten; Firebase (anoniem aanmelden, App Check, database voor gebruikstellers, hosting van het spraakmodel); Google Play (betaling)
-- **RevenueCat:** abonnementsstatus
-- **Alphacephei:** alleen als terugvalbron voor het Vosk-modelbestand
+- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, database voor gebruikstellers, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
+- **RevenueCat:** abonnementsstatus, zie het [privacybeleid van RevenueCat](https://www.revenuecat.com/privacy)
+- **Alphacephei:** alleen als terugvalbron voor het Vosk-modelbestand, zie [alphacephei.com/vosk](https://alphacephei.com/vosk/)
 
 Hun eigen privacyvoorwaarden gelden voor wat zij ontvangen.
 
