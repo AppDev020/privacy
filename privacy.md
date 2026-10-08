@@ -1,5 +1,5 @@
 # VoiceCall Privacy Policy
-Last updated: 7 October 2026
+Last updated: 8 October 2026
 
 This policy explains what data the Android app VoiceCall (`com.voicecall`) uses and why.
 
@@ -10,8 +10,7 @@ VoiceCall helps you call a person or business by voice or by tapping the icon. I
 **Data we process**
 
 **Microphone**  
-While the app is open and listening is on, the app listens offline (Vosk) for the wake word “VoiceCall”. That audio is not sent to our servers.  
-For commands, confirmations and choices, the app uses Google speech recognition on your device. Google processes that audio under Google’s privacy policy.
+While the app is open and listening is on, the app listens offline (Vosk) for the wake word “VoiceCall”. That audio is not sent to our servers. For commands, confirmations and choices, the app uses the speech recognition service set as the default on your device, usually Google’s. That service may send the audio to its own servers and processes it under its own privacy policy. We do not receive it.
 
 **Contacts**  
 With permission, the app reads names, phone numbers and (if present) address fields to find a match. This happens only on your device. Contact data is not sent to us or to Google Places.
@@ -65,7 +64,7 @@ Privacy questions: appdev020@proton.me
 ---
 
 # Privacybeleid VoiceCall
-Laatst bijgewerkt: 7 oktober 2026
+Laatst bijgewerkt: 8 oktober 2026
 
 Dit beleid beschrijft welke gegevens de Android-app VoiceCall (`com.voicecall`) gebruikt en waarom.
 
@@ -76,8 +75,7 @@ VoiceCall helpt u iemand of een bedrijf te bellen via spraak of via het icoon. D
 **Gegevens die we verwerken**
 
 **Microfoon**  
-Terwijl de app open is en meeluisteren aan staat, luistert de app offline (Vosk) naar het activeerwoord “VoiceCall”. Die audio gaat niet naar onze servers.  
-Voor opdrachten, bevestigingen en keuzes gebruikt de app de spraakherkenning van Google op uw toestel. Google verwerkt die audio volgens het privacybeleid van Google.
+Terwijl de app open is en meeluisteren aan staat, luistert de app offline (Vosk) naar het activeerwoord “VoiceCall”. Die audio gaat niet naar onze servers. Voor opdrachten, bevestigingen en keuzes gebruikt de app de spraakherkenningsdienst die op uw toestel als standaard is ingesteld, meestal die van Google. Die dienst kan de audio naar eigen servers sturen en verwerkt die volgens zijn eigen privacybeleid. Wij ontvangen die audio niet.
 
 **Contacten**  
 Met toestemming leest de app namen, telefoonnummers en (als aanwezig) adresgegevens om een match te vinden. Dat gebeurt alleen lokaal op uw toestel. Contactgegevens worden niet naar ons of naar Google Places gestuurd.
