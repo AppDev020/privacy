@@ -95,7 +95,7 @@ VoiceCall helpt u iemand of een bedrijf te bellen via spraak of via het icoon. D
 
 **Gratis en abonnement**
 
-Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar onze servers. Met een abonnement lopen bedrijf- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat.
+Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar onze servers. Met een abonnement lopen bedrijfs- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat.
 
 **Gegevens die we verwerken**
 
@@ -114,8 +114,8 @@ Voor het abonnement meldt de app zich anoniem aan bij Firebase Authentication. D
 **Abonnement en betaling**  
 De betaling loopt via Google Play. Uw kaart- of bankgegevens zien wij nooit. RevenueCat verwerkt uw aankoop namens ons: het ontvangt het willekeurige app-ID en de status en data van uw abonnement, zodat wij kunnen nagaan of uw abonnement actief is.
 
-**Gebruikstellers**  
-Onze server bewaart per willekeurig app-ID hoeveel bedrijfzoekopdrachten u deze maand deed, en per dag hoeveel alle gebruikers samen deden. Zo handhaven we de maandlimiet en houden we de kosten in de hand. Tellers worden na 12 maanden verwijderd.
+**Tellers voor gebruik**  
+Onze server bewaart per willekeurig app-ID hoeveel bedrijfszoekopdrachten u deze maand deed, en per dag hoeveel alle gebruikers samen deden. Zo handhaven we de maandlimiet en houden we de kosten in de hand. Tellers worden na 12 maanden verwijderd.
 
 **Spraakmodel (eenmalig)**  
 Voor het offline activeerwoord kan de app een spraakmodel van ongeveer 41 MB downloaden, na uw toestemming. De download komt van https://voicecall-call.web.app (Firebase Hosting). Als dat niet lukt, kan de app terugvallen op de bron van de modelmaker (alphacephei.com). De download wordt gecontroleerd op grootte en SHA-256. Het model blijft op uw toestel.
@@ -137,7 +137,7 @@ Zegt u "via Signal", dan vraagt de app Signal (of Molly) op uw toestel om een Si
 
 **Derden**
 
-- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, database voor gebruikstellers, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
+- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, database voor de tellers, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
 - **RevenueCat:** abonnementsstatus, zie het [privacybeleid van RevenueCat](https://www.revenuecat.com/privacy)
 - **Alphacephei:** alleen als terugvalbron voor het Vosk-modelbestand, zie [alphacephei.com/vosk](https://alphacephei.com/vosk/)
 - **Signal (en Molly), WhatsApp:** alleen als u vraagt om via hen te bellen of te chatten, zie het [privacybeleid van Signal](https://signal.org/legal/) en het [privacybeleid van WhatsApp](https://www.whatsapp.com/legal/privacy-policy)
@@ -150,7 +150,7 @@ U kunt microfoon-, contacten- en beltoestemming intrekken via de instellingen va
 
 **Bewaartermijn**
 
-Wat op uw toestel staat, blijft daar tot u de app-gegevens wist of de app verwijdert. Op onze server bewaren we gebruikstellers 12 maanden. Abonnementsgegevens bij RevenueCat en Google Play worden bewaard volgens hun eigen voorwaarden.
+Wat op uw toestel staat, blijft daar tot u de app-gegevens wist of de app verwijdert. Op onze server bewaren we de tellers 12 maanden. Abonnementsgegevens bij RevenueCat en Google Play worden bewaard volgens hun eigen voorwaarden.
 
 **Uw rechten**
 
@@ -167,4 +167,3 @@ Als dit beleid wijzigt, passen we de datum bovenaan aan. De actuele versie staat
 **Contact**
 
 Vragen over privacy: appdev020@proton.me
-
