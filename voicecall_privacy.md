@@ -1,5 +1,5 @@
 # VoiceCall Privacy Policy
-Last updated: 8 October 2026
+Last updated: 12 October 2026
 
 This policy explains what data the Android app VoiceCall (`com.voicecall`) uses and why.
 
@@ -17,7 +17,7 @@ Without a subscription, the app only searches your contacts. It then sends nothi
 While the app is open and listening is on, the app listens offline (Vosk) for the wake word "VoiceCall". That audio is not sent to our servers. For commands, confirmations and choices, the app uses the speech recognition service set as the default on your device, usually Google's. That service may send the audio to its own servers and processes it under its own privacy policy. We do not receive it.
 
 **Contacts**  
-With permission, the app reads names, phone numbers and (if present) address fields to find a match. This happens only on your device. Contact data is not sent to us or to Google Places.
+With permission, the app reads names, phone numbers and (if present) address fields to find a match. This happens only on your device. Contact data is not sent to us or to Google Places. If you ask to call via Signal or to open a WhatsApp chat, the app also checks on your device which contacts have a Signal entry or a WhatsApp account. This is also only done on your device and is not sent to us.
 
 **Business search (subscription)**  
 When you use business search, the app sends the search text (for example name and place), your language and region preference and a random app ID to our server. The server forwards the search text, language and region to the Google Places API and returns the result: business name, address and phone number. We do not store the search text. Google Cloud, where our server runs (region Belgium), may keep standard technical logs. Google processes the Places request under its Maps/Places terms.
@@ -40,6 +40,8 @@ On the device the app stores, among other things: language choice, whether liste
 **Calling**  
 With permission, the app starts a call through your device's phone app. Without that permission, it only opens the dialler.
 
+If you say "via Signal", the app asks Signal (or Molly) on your device to start a Signal call with that contact. If you say "via WhatsApp", the app opens a WhatsApp chat with the contact's phone number; WhatsApp does not allow another app to start a call, so you tap the call icon yourself. For this the app hands the contact entry (Signal) or the phone number (WhatsApp) to that app on your device. We do not receive it. Signal and WhatsApp process it under their own privacy policies.
+
 **What we don't do**
 
 - No accounts with name or e-mail address
@@ -52,12 +54,13 @@ With permission, the app starts a call through your device's phone app. Without 
 - **Google:** speech recognition (audio may be processed on Google's servers), see the [Google Privacy Policy](https://policies.google.com/privacy); Places searches, see the [Google Maps Platform Terms](https://cloud.google.com/maps-platform/terms); Firebase (anonymous sign-in, App Check, database for usage counters, hosting for the speech model), see [Firebase privacy](https://firebase.google.com/support/privacy); Google Play (payment)
 - **RevenueCat:** subscription status, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Alphacephei:** only as a fallback source for the Vosk model file, see [alphacephei.com/vosk](https://alphacephei.com/vosk/)
+- **Signal (and Molly), WhatsApp:** only when you ask to call or chat via them, see the [Signal Privacy Policy](https://signal.org/legal/) and the [WhatsApp Privacy Policy](https://www.whatsapp.com/legal/privacy-policy)
 
 Their own privacy terms apply to what they receive.
 
 **Permissions**
 
-You can revoke microphone, contacts and phone permissions in Android settings. Without the microphone, voice does not work. Without contacts, the app can search businesses only with a subscription. Without phone permission, the dialler opens instead of calling directly. You can turn listening off in the app (long-press the icon or use Settings).
+You can revoke microphone, contacts and phone permissions in Android settings. Without the microphone, voice does not work. Without contacts, the app can search businesses only with a subscription. Without phone permission, the dialler opens instead of calling directly, and calls via Signal do not start. You can turn listening off in the app (long-press the icon or use Settings).
 
 **Retention**
 
@@ -82,7 +85,7 @@ Privacy questions: appdev020@proton.me
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 # Privacybeleid VoiceCall
-Laatst bijgewerkt: 8 oktober 2026
+Laatst bijgewerkt: 12 oktober 2026
 
 Dit beleid beschrijft welke gegevens de Android-app VoiceCall (`com.voicecall`) gebruikt en waarom.
 
@@ -100,7 +103,7 @@ Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar on
 Terwijl de app open is en meeluisteren aan staat, luistert de app offline (Vosk) naar het activeerwoord "VoiceCall". Die audio gaat niet naar onze servers. Voor opdrachten, bevestigingen en keuzes gebruikt de app de spraakherkenningsdienst die op uw toestel als standaard is ingesteld, meestal die van Google. Die dienst kan de audio naar eigen servers sturen en verwerkt die volgens zijn eigen privacybeleid. Wij ontvangen die audio niet.
 
 **Contacten**  
-Met toestemming leest de app namen, telefoonnummers en (als aanwezig) adresgegevens om een match te vinden. Dat gebeurt alleen lokaal op uw toestel. Contactgegevens worden niet naar ons of naar Google Places gestuurd.
+Met toestemming leest de app namen, telefoonnummers en (als aanwezig) adresgegevens om een match te vinden. Dat gebeurt alleen lokaal op uw toestel. Contactgegevens worden niet naar ons of naar Google Places gestuurd. Vraagt u om te bellen via Signal of om een WhatsApp-chat te openen, dan controleert de app op uw toestel ook welke contacten een Signal-rij of een WhatsApp-account hebben. Ook dat gebeurt alleen op uw toestel en wordt niet naar ons gestuurd.
 
 **Bedrijf zoeken (abonnement)**  
 Als u een bedrijf zoekt, stuurt de app de zoektekst (bijvoorbeeld naam en plaats), uw taal- en landvoorkeur en een willekeurig app-ID naar onze server. De server stuurt de zoektekst, taal en land door naar de Google Places API en geeft het resultaat terug: bedrijfsnaam, adres en telefoonnummer. Wij bewaren de zoektekst niet. Google Cloud, waar onze server draait (regio België), kan standaard technische logs bewaren. Google verwerkt de Places-aanvraag volgens de voorwaarden voor Maps/Places.
@@ -123,6 +126,8 @@ Op het toestel bewaart de app onder meer: taalkeuze, of meeluisteren aan staat, 
 **Bellen**  
 Met toestemming start de app een gesprek via de bel-app van het toestel. Zonder die toestemming opent de app alleen de belkiezer.
 
+Zegt u "via Signal", dan vraagt de app Signal (of Molly) op uw toestel om een Signal-gesprek met dat contact te starten. Zegt u "via WhatsApp", dan opent de app een WhatsApp-chat met het telefoonnummer van het contact; WhatsApp laat een andere app geen gesprek starten, dus op het belicoon tikt u zelf. Hiervoor geeft de app het contact (Signal) of het telefoonnummer (WhatsApp) door aan die app op uw toestel. Wij ontvangen dat niet. Signal en WhatsApp verwerken het volgens hun eigen privacybeleid.
+
 **Wat we niet doen**
 
 - Geen accounts met naam of e-mailadres
@@ -135,12 +140,13 @@ Met toestemming start de app een gesprek via de bel-app van het toestel. Zonder 
 - **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, database voor gebruikstellers, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
 - **RevenueCat:** abonnementsstatus, zie het [privacybeleid van RevenueCat](https://www.revenuecat.com/privacy)
 - **Alphacephei:** alleen als terugvalbron voor het Vosk-modelbestand, zie [alphacephei.com/vosk](https://alphacephei.com/vosk/)
+- **Signal (en Molly), WhatsApp:** alleen als u vraagt om via hen te bellen of te chatten, zie het [privacybeleid van Signal](https://signal.org/legal/) en het [privacybeleid van WhatsApp](https://www.whatsapp.com/legal/privacy-policy)
 
 Hun eigen privacyvoorwaarden gelden voor wat zij ontvangen.
 
 **Toestemmingen**
 
-U kunt microfoon-, contacten- en beltoestemming intrekken via de instellingen van Android. Zonder microfoon werkt spraak niet. Zonder contacten kan de app alleen met een abonnement bedrijven zoeken. Zonder beltoestemming opent de kiezer in plaats van direct te bellen. Meeluisteren kunt u in de app uitzetten (lang indrukken op het icoon of via Instellingen).
+U kunt microfoon-, contacten- en beltoestemming intrekken via de instellingen van Android. Zonder microfoon werkt spraak niet. Zonder contacten kan de app alleen met een abonnement bedrijven zoeken. Zonder beltoestemming opent de kiezer in plaats van direct te bellen, en starten gesprekken via Signal niet. Meeluisteren kunt u in de app uitzetten (lang indrukken op het icoon of via Instellingen).
 
 **Bewaartermijn**
 
