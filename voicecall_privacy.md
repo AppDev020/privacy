@@ -30,7 +30,7 @@ When you use business search, the app sends the search text (for example name an
 **Usage statistics (Google Analytics)**  
 The app counts how you call: with the phone app, Signal or WhatsApp. For each contact you start, it sends one event with only that channel. No names, phone numbers or search terms are sent with it.
 
-Firebase Analytics also collects information automatically, such as the screens you open and your sessions in the app. Firebase gives each app installation a random app instance ID, which Google uses to count users. Google can also derive a coarse location from your IP address, which is masked, and process technical device details. The advertising ID permission comes in through Google's measurement library, which is part of Firebase Analytics. The app does not use that ID itself.
+Firebase Analytics also collects information automatically, such as the screens you open and your sessions in the app. Firebase gives each app installation a random app instance ID, which Google uses to count users. Google can also derive a coarse location from your IP address, which is masked, and process technical device details. The app does not ask for the Android advertising ID, and Firebase Analytics is set not to collect it.
 
 You can turn this off in Settings under "Share usage statistics". It is on by default. When you turn it off, the app stops sending this data to Google.
 
@@ -140,7 +140,7 @@ Als u een bedrijf zoekt, stuurt de app de zoektekst (bijvoorbeeld naam en plaats
 **Gebruiksstatistieken (Google Analytics)**  
 De app houdt bij hoe u belt: via de belapp, via Signal of via WhatsApp. Per contact dat u start, stuurt de app één gebeurtenis met alleen dat kanaal. Er gaan geen namen, telefoonnummers of zoektermen mee.
 
-Firebase Analytics verzamelt ook automatisch gegevens, zoals welke schermen u opent en de sessies in de app. Firebase geeft elke installatie van de app een willekeurig app-instantie-ID, waarmee Google gebruikers telt. Google kan ook een grove locatie afleiden uit uw IP-adres, dat wordt ingekort, en technische apparaatgegevens verwerken. De machtiging voor het Android-advertentie-ID komt binnen via de meetbibliotheek van Google, die onderdeel is van Firebase Analytics. De app gebruikt dat ID zelf niet.
+Firebase Analytics verzamelt ook automatisch gegevens, zoals welke schermen u opent en de sessies in de app. Firebase geeft elke installatie van de app een willekeurig app-instantie-ID, waarmee Google gebruikers telt. Google kan ook een grove locatie afleiden uit uw IP-adres, dat wordt ingekort, en technische apparaatgegevens verwerken. De app vraagt het Android-advertentie-ID niet op, en Firebase Analytics is ingesteld om het niet te verzamelen.
 
 U zet dit uit in Instellingen onder "Gebruiksstatistieken delen". Het staat standaard aan. Als u het uitzet, stuurt de app geen gegevens meer naar Google.
 
