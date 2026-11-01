@@ -91,7 +91,7 @@ Data on your device stays there until you clear app data or uninstall the app. O
 
 **Your rights**
 
-If you live in the EU, you can ask us for access to, correction of or deletion of data about you, or object to its use. Because the app ID is random and we hold no name or e-mail address, we can only find your data if you give us that ID. A phrase you send contains no ID, so we cannot find it to correct or delete it. It disappears on its own within 14 days. You can turn usage statistics off in the app at any time. We have no name or e-mail address to link them to. You can also complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+If you live in the EU, you can ask us for access to, correction of or deletion of data about you, or object to its use. Because the app ID is random and we hold no name or e-mail address, we can only find your data if you give us that ID. A phrase you send contains no ID, so we cannot find it to correct or delete it. It disappears on its own within 14 days. You can turn usage statistics off in the app at any time. We have no name or e-mail address to link them to. To request deletion, open **More options** in the app and tap **Request data deletion**. The app then shows your IDs. Copy them and email them to appdev020@proton.me. We delete the data linked to those IDs. You can also complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
 
 **Children**
 
@@ -201,7 +201,7 @@ Wat op uw toestel staat, blijft daar tot u de app-gegevens wist of de app verwij
 
 **Uw rechten**
 
-Woont u in de EU, dan kunt u ons vragen om inzage in, correctie of verwijdering van gegevens over u, of bezwaar maken tegen het gebruik ervan. Omdat het app-ID willekeurig is en wij geen naam of e-mailadres hebben, kunnen we uw gegevens alleen vinden als u dat ID opgeeft. Een zin die u opstuurt bevat geen ID, dus we kunnen die niet terugvinden om te corrigeren of te verwijderen. Hij verdwijnt binnen 14 dagen vanzelf. U kunt de gebruiksstatistieken ook op elk moment in de app uitzetten. Wij hebben geen naam of e-mailadres om ze aan te koppelen. U kunt ook klagen bij de Autoriteit Persoonsgegevens.
+Woont u in de EU, dan kunt u ons vragen om inzage in, correctie of verwijdering van gegevens over u, of bezwaar maken tegen het gebruik ervan. Omdat het app-ID willekeurig is en wij geen naam of e-mailadres hebben, kunnen we uw gegevens alleen vinden als u dat ID opgeeft. Een zin die u opstuurt bevat geen ID, dus we kunnen die niet terugvinden om te corrigeren of te verwijderen. Hij verdwijnt binnen 14 dagen vanzelf. U kunt de gebruiksstatistieken ook op elk moment in de app uitzetten. Wij hebben geen naam of e-mailadres om ze aan te koppelen. U vraagt verwijdering aan via **Meer opties** in de app, met de knop **Verwijderverzoek indienen**. De app toont dan uw ID's. Kopieer die en stuur ze naar appdev020@proton.me. Wij verwijderen de gegevens die bij die ID's horen. U kunt ook klagen bij de Autoriteit Persoonsgegevens.
 
 **Kinderen**
 
