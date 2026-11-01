@@ -1,6 +1,6 @@
 # VoiceCall Privacy Policy
 
-_Last updated: 14 October 2026_
+_Last updated: 1 November 2026_
 
 English · [Nederlands](#privacybeleid-voicecall)
 
@@ -12,7 +12,7 @@ VoiceCall helps you call a person or business by voice or by tapping the icon. I
 
 **Free and subscription**
 
-Without a subscription, the app only searches your contacts. It then sends nothing to our servers, unless you turn on "Help improve speech recognition" and send a phrase yourself (see "Sending a phrase (optional)"). With a subscription, business and category searches go through our server, which is limited to a monthly number of searches per user.
+Without a subscription, the app only searches your contacts. It then sends nothing to our servers, unless you turn on "Help improve speech recognition" and send a phrase yourself (see "Sending a phrase (optional)"). With a subscription, business and category searches go through our server, which is limited to a monthly number of searches per user. Usage statistics go to Google Analytics, not to our server (see "Usage statistics").
 
 In versions without business search, the app may ask whether you would want it. If you answer, the app sends your answer (yes, maybe or no), whether it was a name or a category search, and the app language to our server. It is counted per month, without an ID.
 
@@ -26,6 +26,15 @@ With permission, the app reads names, phone numbers and (if present) address fie
 
 **Business search (subscription)**  
 When you use business search, the app sends the search text (for example name and place), your language and region preference and a random app ID to our server. The server forwards the search text, language and region to the Google Places API and returns the result: business name, address and phone number. **We do not store the search text.** Google Cloud, where our server runs (region Belgium), may keep standard technical logs. Google processes the Places request under its Maps/Places terms.
+
+**Usage statistics (Google Analytics)**  
+The app counts how you call: with the phone app, Signal or WhatsApp. For each contact you start, it sends one event with only that channel. No names, phone numbers or search terms are sent with it.
+
+Firebase Analytics also collects information automatically, such as the screens you open and your sessions in the app. Firebase gives each app installation a random app instance ID, which Google uses to count users. Google can also derive a coarse location from your IP address, which is masked, and process technical device details. The app requests the Android advertising ID permission, because Firebase Analytics needs it. The app does not use that ID itself.
+
+You can turn this off in Settings under "Share usage statistics". It is on by default. When you turn it off, the app stops sending this data to Google.
+
+The data is stored in Google Analytics and processed under the [Firebase privacy information](https://firebase.google.com/support/privacy). Google keeps it for 14 months.
 
 **Random app ID**  
 For the subscription, the app signs in anonymously with Firebase Authentication. This creates a random ID without name or e-mail address. The ID is removed when you uninstall the app. App Check (Play Integrity) lets Google check that the request comes from the real app on a genuine device. The same check is used when you send a phrase. Sending a phrase does not use the random app ID.
@@ -49,7 +58,7 @@ Google Cloud may keep standard technical logs of the request, such as the IP add
 For the offline wake word, the app may download a speech model of about 41 MB, after you agree. The download comes from https://voicecall-call.web.app (Firebase Hosting). If that fails, the app may fall back to the model maker's source (alphacephei.com). The download is checked for size and SHA-256. The model stays on your device.
 
 **Local preferences**  
-On the device the app stores, among other things: language choice, whether listening is on, whether sending phrases is on, bar colour, and a short cache of earlier Places results (to limit repeat searches).
+On the device the app stores, among other things: language choice, whether listening is on, whether sending phrases is on, whether usage statistics are on, bar colour, and a short cache of earlier Places results (to limit repeat searches).
 
 **Calling**  
 With permission, the app starts a call through your device's phone app. Without that permission, it only opens the dialler.
@@ -65,7 +74,7 @@ If you say "via Signal", the app asks Signal (or Molly) on your device to start 
 
 **Third parties**
 
-- **Google:** speech recognition (audio may be processed on Google's servers), see the [Google Privacy Policy](https://policies.google.com/privacy); Places searches, see the [Google Maps Platform Terms](https://cloud.google.com/maps-platform/terms); Firebase (anonymous sign-in, App Check, database for usage counters and for phrases you choose to send, hosting for the speech model), see [Firebase privacy](https://firebase.google.com/support/privacy); Google Play (payment)
+- **Google:** speech recognition (audio may be processed on Google's servers), see the [Google Privacy Policy](https://policies.google.com/privacy); Places searches, see the [Google Maps Platform Terms](https://cloud.google.com/maps-platform/terms); Firebase (anonymous sign-in, App Check, Firebase Analytics for usage statistics, database for usage counters and for phrases you choose to send, hosting for the speech model), see [Firebase privacy](https://firebase.google.com/support/privacy); Google Play (payment)
 - **RevenueCat:** subscription status, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 - **Alphacephei:** only as a fallback source for the Vosk model file, see [alphacephei.com/vosk](https://alphacephei.com/vosk/)
 - **Signal (and Molly), WhatsApp:** only when you ask to call or chat via them, see the [Signal Privacy Policy](https://signal.org/legal/) and the [WhatsApp Privacy Policy](https://www.whatsapp.com/legal/privacy-policy)
@@ -78,11 +87,11 @@ You can revoke microphone, contacts and phone permissions in Android settings. W
 
 **Retention**
 
-Data on your device stays there until you clear app data or uninstall the app. On our server we keep usage counters for 60 days. **Phrases you choose to send are deleted automatically, at the latest 14 days after sending.** Subscription data at RevenueCat and Google Play is kept under their own terms.
+Data on your device stays there until you clear app data or uninstall the app. On our server we keep usage counters for 60 days. Usage statistics in Google Analytics are kept for 14 months. **Phrases you choose to send are deleted automatically, at the latest 14 days after sending.** Subscription data at RevenueCat and Google Play is kept under their own terms.
 
 **Your rights**
 
-If you live in the EU, you can ask us for access to, correction of or deletion of data about you, or object to its use. Because the app ID is random and we hold no name or e-mail address, we can only find your data if you give us that ID. A phrase you send contains no ID, so we cannot find it to correct or delete it. It disappears on its own within 14 days. You can also complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+If you live in the EU, you can ask us for access to, correction of or deletion of data about you, or object to its use. Because the app ID is random and we hold no name or e-mail address, we can only find your data if you give us that ID. A phrase you send contains no ID, so we cannot find it to correct or delete it. It disappears on its own within 14 days. You can turn usage statistics off in the app at any time. We have no name or e-mail address to link them to. You can also complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
 
 **Children**
 
@@ -101,7 +110,7 @@ Privacy questions: appdev020@proton.me
 
 # Privacybeleid VoiceCall
 
-_Laatst bijgewerkt: 14 oktober 2026_
+_Laatst bijgewerkt: 1 november 2026_
 
 [English](#voicecall-privacy-policy) · Nederlands
 
@@ -113,7 +122,7 @@ VoiceCall helpt u iemand of een bedrijf te bellen via spraak of via het icoon. D
 
 **Gratis en abonnement**
 
-Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar onze servers, tenzij u "Help de spraakherkenning verbeteren" aanzet en zelf een zin opstuurt (zie "Zin opsturen (optioneel)"). Met een abonnement lopen bedrijfs- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat.
+Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar onze servers, tenzij u "Help de spraakherkenning verbeteren" aanzet en zelf een zin opstuurt (zie "Zin opsturen (optioneel)"). Met een abonnement lopen bedrijfs- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat. Gebruiksstatistieken gaan naar Google Analytics, niet naar onze server (zie "Gebruiksstatistieken").
 
 In versies zonder bedrijven zoeken kan de app vragen of u dat zou willen. Als u antwoordt, stuurt de app uw antwoord (ja, misschien of nee), of het om een naam of categorie ging en de taal van de app naar onze server. Het wordt per maand geteld, zonder ID.
 
@@ -127,6 +136,15 @@ Met toestemming leest de app namen, telefoonnummers en (als aanwezig) adresgegev
 
 **Bedrijf zoeken (abonnement)**  
 Als u een bedrijf zoekt, stuurt de app de zoektekst (bijvoorbeeld naam en plaats), uw taal- en landvoorkeur en een willekeurig app-ID naar onze server. De server stuurt de zoektekst, taal en land door naar de Google Places API en geeft het resultaat terug: bedrijfsnaam, adres en telefoonnummer. **Wij bewaren de zoektekst niet.** Google Cloud, waar onze server draait (regio België), kan standaard technische logs bewaren. Google verwerkt de Places-aanvraag volgens de voorwaarden voor Maps/Places.
+
+**Gebruiksstatistieken (Google Analytics)**  
+De app houdt bij hoe u belt: via de belapp, via Signal of via WhatsApp. Per contact dat u start, stuurt de app één gebeurtenis met alleen dat kanaal. Er gaan geen namen, telefoonnummers of zoektermen mee.
+
+Firebase Analytics verzamelt ook automatisch gegevens, zoals welke schermen u opent en de sessies in de app. Firebase geeft elke installatie van de app een willekeurig app-instantie-ID, waarmee Google gebruikers telt. Google kan ook een grove locatie afleiden uit uw IP-adres, dat wordt ingekort, en technische apparaatgegevens verwerken. De app vraagt de machtiging voor het Android-advertentie-ID aan, omdat Firebase Analytics die nodig heeft. De app gebruikt dat ID zelf niet.
+
+U zet dit uit in Instellingen onder "Gebruiksstatistieken delen". Het staat standaard aan. Als u het uitzet, stuurt de app geen gegevens meer naar Google.
+
+De gegevens worden bewaard in Google Analytics en verwerkt volgens de [privacy-informatie van Firebase](https://firebase.google.com/support/privacy). Google bewaart ze 14 maanden.
 
 **Willekeurig app-ID**  
 Voor het abonnement meldt de app zich anoniem aan bij Firebase Authentication. Dat levert een willekeurig ID op, zonder naam of e-mailadres. Het ID verdwijnt als u de app verwijdert. App Check (Play Integrity) laat Google controleren of de aanvraag van de echte app op een echt toestel komt. Dezelfde controle wordt gebruikt als u een zin opstuurt. Een zin opsturen gebruikt het willekeurige app-ID niet.
@@ -150,7 +168,7 @@ Google Cloud kan standaard technische logs van het verzoek bewaren, zoals het IP
 Voor het offline activeerwoord kan de app een spraakmodel van ongeveer 41 MB downloaden, na uw toestemming. De download komt van https://voicecall-call.web.app (Firebase Hosting). Als dat niet lukt, kan de app terugvallen op de bron van de modelmaker (alphacephei.com). De download wordt gecontroleerd op grootte en SHA-256. Het model blijft op uw toestel.
 
 **Lokaal opgeslagen voorkeuren**  
-Op het toestel bewaart de app onder meer: taalkeuze, of meeluisteren aan staat, of zinnen opsturen aan staat, balkkleur, en een korte cache van eerdere Places-zoekresultaten (om herhaalde zoekopdrachten te beperken).
+Op het toestel bewaart de app onder meer: taalkeuze, of meeluisteren aan staat, of zinnen opsturen aan staat, of gebruiksstatistieken aan staan, balkkleur, en een korte cache van eerdere Places-zoekresultaten (om herhaalde zoekopdrachten te beperken).
 
 **Bellen**  
 Met toestemming start de app een gesprek via de bel-app van het toestel. Zonder die toestemming opent de app alleen de belkiezer.
@@ -166,7 +184,7 @@ Zegt u "via Signal", dan vraagt de app Signal (of Molly) op uw toestel om een Si
 
 **Derden**
 
-- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, database voor de tellers en voor zinnen die u opstuurt, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
+- **Google:** spraakherkenning (audio kan op de servers van Google worden verwerkt), zie het [privacybeleid van Google](https://policies.google.com/privacy); Places-zoekopdrachten, zie de [voorwaarden van Google Maps Platform](https://cloud.google.com/maps-platform/terms); Firebase (anoniem aanmelden, App Check, Firebase Analytics voor gebruiksstatistieken, database voor de tellers en voor zinnen die u opstuurt, hosting van het spraakmodel), zie [privacy bij Firebase](https://firebase.google.com/support/privacy); Google Play (betaling)
 - **RevenueCat:** abonnementsstatus, zie het [privacybeleid van RevenueCat](https://www.revenuecat.com/privacy)
 - **Alphacephei:** alleen als terugvalbron voor het Vosk-modelbestand, zie [alphacephei.com/vosk](https://alphacephei.com/vosk/)
 - **Signal (en Molly), WhatsApp:** alleen als u vraagt om via hen te bellen of te chatten, zie het [privacybeleid van Signal](https://signal.org/legal/) en het [privacybeleid van WhatsApp](https://www.whatsapp.com/legal/privacy-policy)
@@ -179,11 +197,11 @@ U kunt microfoon-, contacten- en beltoestemming intrekken via de instellingen va
 
 **Bewaartermijn**
 
-Wat op uw toestel staat, blijft daar tot u de app-gegevens wist of de app verwijdert. Op onze server bewaren we de tellers 60 dagen. **Zinnen die u opstuurt worden automatisch verwijderd, uiterlijk 14 dagen na het versturen.** Abonnementsgegevens bij RevenueCat en Google Play worden bewaard volgens hun eigen voorwaarden.
+Wat op uw toestel staat, blijft daar tot u de app-gegevens wist of de app verwijdert. Op onze server bewaren we de tellers 60 dagen. Gebruiksstatistieken bewaart Google Analytics 14 maanden. **Zinnen die u opstuurt worden automatisch verwijderd, uiterlijk 14 dagen na het versturen.** Abonnementsgegevens bij RevenueCat en Google Play worden bewaard volgens hun eigen voorwaarden.
 
 **Uw rechten**
 
-Woont u in de EU, dan kunt u ons vragen om inzage in, correctie of verwijdering van gegevens over u, of bezwaar maken tegen het gebruik ervan. Omdat het app-ID willekeurig is en wij geen naam of e-mailadres hebben, kunnen we uw gegevens alleen vinden als u dat ID opgeeft. Een zin die u opstuurt bevat geen ID, dus we kunnen die niet terugvinden om te corrigeren of te verwijderen. Hij verdwijnt binnen 14 dagen vanzelf. U kunt ook klagen bij de Autoriteit Persoonsgegevens.
+Woont u in de EU, dan kunt u ons vragen om inzage in, correctie of verwijdering van gegevens over u, of bezwaar maken tegen het gebruik ervan. Omdat het app-ID willekeurig is en wij geen naam of e-mailadres hebben, kunnen we uw gegevens alleen vinden als u dat ID opgeeft. Een zin die u opstuurt bevat geen ID, dus we kunnen die niet terugvinden om te corrigeren of te verwijderen. Hij verdwijnt binnen 14 dagen vanzelf. U kunt de gebruiksstatistieken ook op elk moment in de app uitzetten. Wij hebben geen naam of e-mailadres om ze aan te koppelen. U kunt ook klagen bij de Autoriteit Persoonsgegevens.
 
 **Kinderen**
 
