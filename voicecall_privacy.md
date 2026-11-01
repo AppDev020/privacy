@@ -12,9 +12,9 @@ VoiceCall helps you call a person or business by voice or by tapping the icon. I
 
 **Free and subscription**
 
-Without a subscription, the app only searches your contacts. It then sends nothing to our servers, unless you turn on "Help improve speech recognition" and send a phrase yourself (see "Sending a phrase (optional)"). With a subscription, business and category searches go through our server, which is limited to a monthly number of searches per user. Usage statistics go to Google Analytics, not to our server (see "Usage statistics").
+Without a subscription, the app only searches your contacts. Your contacts never go to our servers. If you search for a business without a subscription, the search text does reach our server, which refuses the search and does not store the text. Otherwise nothing goes to our servers, unless you turn on "Help improve speech recognition" and send a phrase yourself (see "Sending a phrase (optional)"). With a subscription, business and category searches go through our server, which is limited to a monthly number of searches per user. Usage statistics go to Google Analytics, not to our server (see "Usage statistics").
 
-In versions without business search, the app may ask whether you would want it. If you answer, the app sends your answer (yes, maybe or no), whether it was a name or a category search, and the app language to our server. It is counted per month, without an ID.
+Versions up to and including 1.0.1 could ask whether you missed business search. If you answered (yes, maybe or no), the app sent your answer, whether it was a name or a category search, and the app language to our server. This was counted per month, without an ID. Later versions no longer ask this question.
 
 **Data we process**
 
@@ -30,7 +30,7 @@ When you use business search, the app sends the search text (for example name an
 **Usage statistics (Google Analytics)**  
 The app counts how you call: with the phone app, Signal or WhatsApp. For each contact you start, it sends one event with only that channel. No names, phone numbers or search terms are sent with it.
 
-Firebase Analytics also collects information automatically, such as the screens you open and your sessions in the app. Firebase gives each app installation a random app instance ID, which Google uses to count users. Google can also derive a coarse location from your IP address, which is masked, and process technical device details. The app requests the Android advertising ID permission, because Firebase Analytics needs it. The app does not use that ID itself.
+Firebase Analytics also collects information automatically, such as the screens you open and your sessions in the app. Firebase gives each app installation a random app instance ID, which Google uses to count users. Google can also derive a coarse location from your IP address, which is masked, and process technical device details. The advertising ID permission comes in through Google's measurement library, which is part of Firebase Analytics. The app does not use that ID itself.
 
 You can turn this off in Settings under "Share usage statistics". It is on by default. When you turn it off, the app stops sending this data to Google.
 
@@ -122,9 +122,9 @@ VoiceCall helpt u iemand of een bedrijf te bellen via spraak of via het icoon. D
 
 **Gratis en abonnement**
 
-Zonder abonnement zoekt de app alleen in uw contacten. Er gaat dan niets naar onze servers, tenzij u "Help de spraakherkenning verbeteren" aanzet en zelf een zin opstuurt (zie "Zin opsturen (optioneel)"). Met een abonnement lopen bedrijfs- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat. Gebruiksstatistieken gaan naar Google Analytics, niet naar onze server (zie "Gebruiksstatistieken").
+Zonder abonnement zoekt de app alleen in uw contacten. Uw contacten gaan nooit naar onze servers. Zoekt u zonder abonnement naar een bedrijf, dan komt de zoektekst wel bij onze server. Die weigert de zoekopdracht en slaat de tekst niet op. Verder gaat er niets naar onze servers, tenzij u "Help de spraakherkenning verbeteren" aanzet en zelf een zin opstuurt (zie "Zin opsturen (optioneel)"). Met een abonnement lopen bedrijfs- en categoriezoekopdrachten via onze server, die per gebruiker een maandelijks aantal zoekopdrachten toestaat. Gebruiksstatistieken gaan naar Google Analytics, niet naar onze server (zie "Gebruiksstatistieken").
 
-In versies zonder bedrijven zoeken kan de app vragen of u dat zou willen. Als u antwoordt, stuurt de app uw antwoord (ja, misschien of nee), of het om een naam of categorie ging en de taal van de app naar onze server. Het wordt per maand geteld, zonder ID.
+Versies tot en met 1.0.1 konden vragen of u bedrijven zoeken miste. Als u antwoordde (ja, misschien of nee), stuurde de app uw antwoord, of het om een naam of categorie ging en de taal van de app naar onze server. Dat werd per maand geteld, zonder ID. Latere versies stellen die vraag niet meer.
 
 **Gegevens die we verwerken**
 
@@ -140,7 +140,7 @@ Als u een bedrijf zoekt, stuurt de app de zoektekst (bijvoorbeeld naam en plaats
 **Gebruiksstatistieken (Google Analytics)**  
 De app houdt bij hoe u belt: via de belapp, via Signal of via WhatsApp. Per contact dat u start, stuurt de app één gebeurtenis met alleen dat kanaal. Er gaan geen namen, telefoonnummers of zoektermen mee.
 
-Firebase Analytics verzamelt ook automatisch gegevens, zoals welke schermen u opent en de sessies in de app. Firebase geeft elke installatie van de app een willekeurig app-instantie-ID, waarmee Google gebruikers telt. Google kan ook een grove locatie afleiden uit uw IP-adres, dat wordt ingekort, en technische apparaatgegevens verwerken. De app vraagt de machtiging voor het Android-advertentie-ID aan, omdat Firebase Analytics die nodig heeft. De app gebruikt dat ID zelf niet.
+Firebase Analytics verzamelt ook automatisch gegevens, zoals welke schermen u opent en de sessies in de app. Firebase geeft elke installatie van de app een willekeurig app-instantie-ID, waarmee Google gebruikers telt. Google kan ook een grove locatie afleiden uit uw IP-adres, dat wordt ingekort, en technische apparaatgegevens verwerken. De machtiging voor het Android-advertentie-ID komt binnen via de meetbibliotheek van Google, die onderdeel is van Firebase Analytics. De app gebruikt dat ID zelf niet.
 
 U zet dit uit in Instellingen onder "Gebruiksstatistieken delen". Het staat standaard aan. Als u het uitzet, stuurt de app geen gegevens meer naar Google.
 
